@@ -4,6 +4,8 @@ metadata:
   labels:
     service: reverseproxy
   name: reverseproxy-svc
+  namespace: default
+  selfLink: /api/v1/namespaces/default/services/reverseproxy-svc
 spec:
   ports:
   - name: "8080"
